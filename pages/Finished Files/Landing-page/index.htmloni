@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <!-- Navbar section -->
-    <div class="navbar">
+     Navbar section -->
+    <!-- <div class="navbar">
         <ul>
             <li id="svg">
                 <img src="../../../images/Logo.svg" alt="">
@@ -22,10 +22,10 @@
             <li><a href="../Blog/blog.html">BLOG</a></li>
             <li><a href="../Log-In/login.html">LOG IN</a></li>
         </ul>
-    </div>
+    </div> -->
     <!-- // Navbar section -->
     <!-- Main content including the tests and image -->
-    <div class="main">
+    <!-- <div class="main">
         <div class="mainLeft">
             <div class="section">
                 <div>Sylvain Niyonkuru</div>
@@ -45,4 +45,4 @@
         </div>
     </div>
 </body>
-</html>
+</html> --> 
