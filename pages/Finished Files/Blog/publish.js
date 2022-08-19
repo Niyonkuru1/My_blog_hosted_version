@@ -126,14 +126,16 @@ function generateBlogCard(title, body, dateCreated, Id) {
   headDiv.className = "head"
   let headingDiv = document.createElement("div")
   headingDiv.className = "heading"
-  headingDiv.appendChild(document.createTextNode(title))
+  let stripedTitle = title.substring(0, 18);
+  headingDiv.appendChild(document.createTextNode(stripedTitle))
   headDiv.appendChild(headingDiv)
   let dateDiv = document.createElement("div")
   dateDiv.className = "date"
   dateDiv.appendChild(document.createTextNode(dateCreated))
   headDiv.appendChild(dateDiv)
   let paraDiv = document.createElement("p")
-  paraDiv.appendChild(document.createTextNode(body))
+  let stripedBody = body.substring(0, 30);
+  paraDiv.appendChild(document.createTextNode(stripedBody))
   headDiv.appendChild(paraDiv)
   let tostyleDiv = document.createElement("div")
   tostyleDiv.className = "toStyleButton"
